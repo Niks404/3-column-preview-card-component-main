@@ -1,0 +1,99 @@
+body {
+	font-family: 'Lexend Deca', sans-serif;
+	background-color: hsl(0, 0%, 95%);
+}
+
+.card-list {
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-top: 200px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.row {
+	display: flex;
+}
+
+.list {
+	padding: 60px 50px;
+}
+
+.first {
+	background-color: hsl(31, 77%, 52%);
+}
+
+.second {
+	background-color: hsl(184, 100%, 22%);
+}
+
+.third {
+	background-color: hsl(179, 100%, 13%);
+}
+
+.first a {
+	color: hsl(31, 77%, 52%);
+}
+
+.second a {
+	color: hsl(184, 100%, 22%)
+}
+
+.third a {
+	color: hsl(179, 100%, 13%);
+}
+
+h1 {
+	font-family: 'Big Shoulders Display', cursive;
+	font-weight: 700;
+	font-size: 40px;
+	color: hsl(0, 0%, 95%);
+	padding: 50px 0;
+}
+
+.description {
+	color: hsla(0, 0%, 100%, 0.75);
+	padding-bottom: 100px;
+	line-height: 25px;
+}
+
+a {
+	text-decoration: none;
+	padding: 15px 35px;
+	background-color: hsl(0, 0%, 95%);
+	border-radius: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+	.row {
+    	display: inline;
+  	}
+
+  	.card-list {
+  		max-width: 400px;
+  	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+	font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
